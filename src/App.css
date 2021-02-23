@@ -1,0 +1,36 @@
+
+.App > table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.App > table > tr >th{
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.App > .Filter >form{
+  display: flex;
+  width: 100%;
+  padding: 8px 16px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.App > .Filter > form > div > input , select{
+  width: 33% !important;
+  padding: 8px 16px !important;
+}
+
+.App > .Filter > form > div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App > .Filter > form > button {
+  width: 14%;
+  margin: 10px auto;
+  padding: 8px 0px;
+}
